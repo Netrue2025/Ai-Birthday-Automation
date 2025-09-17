@@ -1,0 +1,16 @@
+fastapi[standard]
+uvicorn[standard]
+sqlalchemy
+sqlmodel
+alembic
+asyncpg
+python-dotenv
+passlib
+upstash_redis
+bcrypt
+passlib[bcrypt]
+python-jose[cryptography]
+APScheduler
+pydantic[email]
+python-multipart
+cloudinary
