@@ -7,22 +7,21 @@ from pydantic import EmailStr
 from sqlmodel import SQLModel
 
 
-class ContactCreate(SQLModel):
+class AddUser(SQLModel):
     name: str
-    nickname: Optional[str] = None
     birth_date: date
+    gender: str
     email: Optional[EmailStr] = None
     phone_number: Optional[str] = None
-    image_path: Optional[str] = None
+    #image_path: Optional[str] = None
     whatsapp_group_id: Optional[str] = None
 
 
-class ContactRead(SQLModel):
+class ReadUserInfo(SQLModel):
     id: int
     name: str
-    nickname: Optional[str] = None
     birth_date: date
     email: Optional[EmailStr] = None
     phone_number: Optional[str] = None
-    image_path: Optional[str] = None
+    #image_path: Optional[str] = None
     whatsapp_group_id: Optional[str] = None
