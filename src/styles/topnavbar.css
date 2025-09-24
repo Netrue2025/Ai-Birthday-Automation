@@ -1,0 +1,24 @@
+.topnavbar {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.topnavbar .topnavbutton {
+  display: flex;
+  width: 80%;
+  margin: 15px auto;
+  justify-content: center;
+  border: 1px solid #ececec;
+  height: 5%;
+  padding: 2%;
+  position: relative;
+  border-radius: 4%;
+}
+.topnavbar .topnavbutton .annibtn, .topnavbar .topnavbutton .religiousbtn, .topnavbar .topnavbutton .socialbtn, .topnavbar .topnavbutton .birthbtn {
+  font-size: 0.6rem;
+  font-family: sans-serif;
+  justify-self: center;
+  text-align: center;
+  margin: 0 2px;
+  outline: 1px solid rgb(146, 215, 255);
+}/*# sourceMappingURL=topnavbar.css.map */

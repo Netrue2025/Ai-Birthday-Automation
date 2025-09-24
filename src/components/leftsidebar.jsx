@@ -8,7 +8,6 @@ library.add(fas, far, fab)
 import { Link } from "react-router-dom"
 import "../styles/leftsidebar.css"
 
-import { Button } from './button'
 
 export function Leftsidebar(){
     return(
@@ -17,7 +16,7 @@ export function Leftsidebar(){
             <div className='leftSideBar'>
                 <div className='automatedBD'>
                     <div className='round'>.</div>
-                    <h2>TEXT AUTOMATION</h2>
+                    <h2>Text Automation</h2>
                 </div>
                 <div className='dashBoard'>
                     <FontAwesomeIcon icon="fa-regular fa-house" className='fa'/>

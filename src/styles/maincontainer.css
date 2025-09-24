@@ -7,4 +7,18 @@
   font-family: sans-serif;
   background-color: #FFFFFF;
   display: flex;
+  overflow: hidden;
+}
+
+h2 {
+  color: #4d4c4c;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    width: 100vw;
+    margin: 0;
+    height: auto;
+  }
 }/*# sourceMappingURL=maincontainer.css.map */

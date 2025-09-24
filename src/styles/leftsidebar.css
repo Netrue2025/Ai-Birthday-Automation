@@ -1,7 +1,6 @@
 .leftSideBar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   width: 25%;
   overflow: hidden;
@@ -25,7 +24,7 @@
 .leftSideBar .automatedBD .round {
   width: 20px;
   height: 20px;
-  background-color: #b1b1b1;
+  background-color: rgba(1, 56, 13, 0.5019607843);
   margin: auto;
   margin-right: 0;
   margin-left: 10px;
@@ -101,4 +100,10 @@
   margin-left: 6px;
   border-radius: 5px;
   height: 30px;
+}
+
+@media (max-width: 768px) {
+  .leftSideBar {
+    height: inherit;
+  }
 }/*# sourceMappingURL=leftsidebar.css.map */

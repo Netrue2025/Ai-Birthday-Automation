@@ -1,7 +1,7 @@
 .leftSideBar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
     height: 100%;
     width: 25%;
     overflow: hidden;
@@ -25,7 +25,7 @@
         .round{
         width: 20px;
         height: 20px;
-        background-color: #b1b1b1;
+        background-color: #01380d80;
         margin: auto;
         margin-right: 0;
         margin-left: 10px;
@@ -111,4 +111,9 @@
         }
     }
 
+}
+@media (max-width:768px){
+    .leftSideBar{
+        height: inherit;
+    }
 }
