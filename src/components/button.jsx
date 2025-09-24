@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
-export function Back(){
+
+export function Button(props){
     return(
         <div>
             <Link to={"/"}>
-                <button>Back</button>
+                <button>{props.name}</button>
             </Link>
             
         </div>

@@ -1,14 +1,4 @@
-.mainContainer {
-  width: 80vw;
-  height: 80vh;
-  margin: auto 10%;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-family: sans-serif;
-  background-color: #FFFFFF;
-  display: flex;
-}
-.mainContainer .leftSideBar {
+.leftSideBar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +7,7 @@
   overflow: hidden;
   background-color: #E0E0E0;
 }
-.mainContainer .leftSideBar .automatedBD {
+.leftSideBar .automatedBD {
   width: 90%;
   height: 20%;
   display: flex;
@@ -25,14 +15,14 @@
   margin-left: 5%;
   margin-bottom: 8%;
 }
-.mainContainer .leftSideBar .automatedBD h2 {
+.leftSideBar .automatedBD h2 {
   color: #5b5b5b;
   font-size: 0.9rem;
-  width: 50%;
+  width: 80%;
   text-align: center;
   margin: auto 10px;
 }
-.mainContainer .leftSideBar .automatedBD .round {
+.leftSideBar .automatedBD .round {
   width: 20px;
   height: 20px;
   background-color: #b1b1b1;
@@ -41,7 +31,7 @@
   margin-left: 10px;
   border-radius: 50px;
 }
-.mainContainer .leftSideBar .dashBoard, .mainContainer .leftSideBar .contacts, .mainContainer .leftSideBar .wallet, .mainContainer .leftSideBar .configuration {
+.leftSideBar .dashBoard, .leftSideBar .contacts, .leftSideBar .wallet, .leftSideBar .configuration {
   color: #5B5B5B;
   font-size: 0.75rem;
   display: flex;
@@ -49,35 +39,35 @@
   text-align: center;
   margin: 0 auto;
 }
-.mainContainer .leftSideBar .dashBoard h3, .mainContainer .leftSideBar .contacts h3, .mainContainer .leftSideBar .wallet h3, .mainContainer .leftSideBar .configuration h3 {
+.leftSideBar .dashBoard h3, .leftSideBar .contacts h3, .leftSideBar .wallet h3, .leftSideBar .configuration h3 {
   text-align: left;
   width: 60%;
   margin: 10px;
 }
-.mainContainer .leftSideBar .dashBoard .fa, .mainContainer .leftSideBar .contacts .fa, .mainContainer .leftSideBar .wallet .fa, .mainContainer .leftSideBar .configuration .fa {
+.leftSideBar .dashBoard .fa, .leftSideBar .contacts .fa, .leftSideBar .wallet .fa, .leftSideBar .configuration .fa {
   font-size: 1rem;
   width: auto;
   text-align: center;
   margin: auto 5%;
   margin-right: 0;
 }
-.mainContainer .leftSideBar .dashBoard {
+.leftSideBar .dashBoard {
   border-radius: 5px;
   cursor: pointer;
 }
-.mainContainer .leftSideBar .wallet:hover {
+.leftSideBar .wallet:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
-.mainContainer .leftSideBar .contacts:hover {
+.leftSideBar .contacts:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
-.mainContainer .leftSideBar .configuration:hover {
+.leftSideBar .configuration:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
-.mainContainer .leftSideBar .walletContainer {
+.leftSideBar .walletContainer {
   display: flex;
   flex-direction: column;
   margin-top: auto;
@@ -89,24 +79,24 @@
   border-radius: 10px;
   line-height: 1;
 }
-.mainContainer .leftSideBar .walletContainer .wallet2, .mainContainer .leftSideBar .walletContainer .addCoin {
+.leftSideBar .walletContainer .wallet2, .leftSideBar .walletContainer .addCoin {
   color: #5B5B5B;
   font-size: 0.75rem;
   display: flex;
   width: 90%;
   margin-bottom: 20px;
 }
-.mainContainer .leftSideBar .walletContainer .wallet2 .fa, .mainContainer .leftSideBar .walletContainer .addCoin .fa {
+.leftSideBar .walletContainer .wallet2 .fa, .leftSideBar .walletContainer .addCoin .fa {
   margin: auto;
   margin-right: 0;
   margin-left: 10px;
 }
-.mainContainer .leftSideBar .walletContainer .wallet2 h4, .mainContainer .leftSideBar .walletContainer .addCoin h4 {
+.leftSideBar .walletContainer .wallet2 h4, .leftSideBar .walletContainer .addCoin h4 {
   width: 50%;
   margin: auto;
   margin-left: 5px;
 }
-.mainContainer .leftSideBar .walletContainer .addCoin {
+.leftSideBar .walletContainer .addCoin {
   background-color: #d1d1d1;
   margin-left: 6px;
   border-radius: 5px;

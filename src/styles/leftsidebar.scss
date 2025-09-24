@@ -1,125 +1,114 @@
-.mainContainer{
-    width: 80vw;
-    height: 80vh;
-    margin:auto 10%;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-family:sans-serif;
-    background-color: #FFFFFF;
+.leftSideBar{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 25%;
+    overflow: hidden;
+    background-color: #E0E0E0;
 
-    .leftSideBar{
+    .automatedBD{
+        width: 90%;
+        height: 20%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-        width: 25%;
-        overflow: hidden;
-        background-color: #E0E0E0;
+        padding: 0;
+        margin-left: 5%;
+        margin-bottom: 8%;
+        h2{
+        color: #5b5b5b;
+        font-size: 0.9rem;
+        width: 80%;
+        text-align: center;
+        margin: auto 10px;
+        }
         
-        .automatedBD{
-            width: 90%;
-            height: 20%;
-            display: flex;
-            padding: 0;
-            margin-left: 5%;
-            margin-bottom: 8%;
-            h2{
-            color: #5b5b5b;
-            font-size: 0.9rem;
-            width: 50%;
+        .round{
+        width: 20px;
+        height: 20px;
+        background-color: #b1b1b1;
+        margin: auto;
+        margin-right: 0;
+        margin-left: 10px;
+        border-radius: 50px;
+        }
+    } 
+    
+    .dashBoard, .contacts, .wallet, .configuration{
+        color: #5B5B5B;
+        font-size: 0.75rem;
+        display: flex;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+
+        h3{
+            text-align: left;
+            width: 60%; 
+            margin: 10px;               
+        }
+        .fa{
+            font-size: 1rem;
+            width: auto;
             text-align: center;
-            margin: auto 10px;
-            }
-            
-            .round{
-            width: 20px;
-            height: 20px;
-            background-color: #b1b1b1;
-            margin: auto;
+            margin: auto 5%;
             margin-right: 0;
-            margin-left: 10px;
-            border-radius: 50px;
-            }
-        } 
-        
-        .dashBoard, .contacts, .wallet, .configuration{
-            color: #5B5B5B;
-            font-size: 0.75rem;
-            display: flex;
-            width: 90%;
-            text-align: center;
-            margin: 0 auto;
-
-            h3{
-                text-align: left;
-                width: 60%; 
-                margin: 10px;               
-            }
-            .fa{
-                font-size: 1rem;
-                width: auto;
-                text-align: center;
-                margin: auto 5%;
-                margin-right: 0;
-            }
-
-        }
-        .dashBoard{
-            border-radius: 5px;
-            cursor: pointer;
-            
-        }
-        .wallet:hover{
-            background-color: #d1d1d1;
-            cursor: pointer;
-        }
-        .contacts:hover{
-            background-color: #d1d1d1;
-            cursor: pointer;
-        }
-        .configuration:hover{
-             background-color: #d1d1d1;
-             cursor: pointer;
-        }
-        .walletContainer{
-            display: flex;
-            flex-direction: column;
-            margin-top: auto;
-            background-color: white;
-            width: 90%;
-            padding-top: 10px;
-            margin: auto auto 0;
-            margin-bottom: 10px;
-            border-radius: 10px;
-            line-height: 1;
-            
-
-            .wallet2, .addCoin{
-            color: #5B5B5B;
-            font-size: 0.75rem;
-            display: flex;
-            width: 90%;
-            margin-bottom: 20px;
-            
-            .fa{
-                margin: auto;
-                margin-right: 0;
-                margin-left: 10px;
-            }
-            h4{
-                width: 50%;
-                margin: auto;
-                margin-left: 5px;
-            }
-            }
-            .addCoin{
-                background-color: #d1d1d1;
-                margin-left: 6px;
-                border-radius: 5px;
-                height: 30px;
-            }
         }
 
     }
+    .dashBoard{
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    .wallet:hover{
+        background-color: #d1d1d1;
+        cursor: pointer;
+    }
+    .contacts:hover{
+        background-color: #d1d1d1;
+        cursor: pointer;
+    }
+    .configuration:hover{
+            background-color: #d1d1d1;
+            cursor: pointer;
+    }
+    .walletContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        background-color: white;
+        width: 90%;
+        padding-top: 10px;
+        margin: auto auto 0;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        line-height: 1;
+        
+
+        .wallet2, .addCoin{
+        color: #5B5B5B;
+        font-size: 0.75rem;
+        display: flex;
+        width: 90%;
+        margin-bottom: 20px;
+        
+        .fa{
+            margin: auto;
+            margin-right: 0;
+            margin-left: 10px;
+        }
+        h4{
+            width: 50%;
+            margin: auto;
+            margin-left: 5px;
+        }
+        }
+        .addCoin{
+            background-color: #d1d1d1;
+            margin-left: 6px;
+            border-radius: 5px;
+            height: 30px;
+        }
+    }
+
 }
