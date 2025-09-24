@@ -1,0 +1,65 @@
+.centerContainer {
+  width: 40%;
+  padding: 5%;
+}
+.centerContainer h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #333333;
+  width: 100%;
+}
+.centerContainer .search {
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  height: 40px;
+  border-radius: 10px;
+}
+.centerContainer .search input {
+  border: none;
+  width: 90%;
+  float: right;
+  margin: 0 auto;
+  margin-right: 0;
+  border-radius: 10px;
+  outline: none;
+}
+.centerContainer .search .searchFA {
+  margin: auto;
+  color: gray;
+}
+.centerContainer .persons {
+  width: 90%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.centerContainer .persons .details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+  line-height: 0;
+}
+.centerContainer .persons .personFA1, .centerContainer .persons .personFA2 {
+  margin: auto;
+  color: rgb(163, 163, 163);
+}
+.centerContainer .persons .personFA1 {
+  font-size: 40px;
+}
+.centerContainer .persons h3 {
+  color: #333333;
+  padding: 0;
+}
+.centerContainer .persons p {
+  color: gray;
+  padding: 0;
+  margin-top: 10px;
+}/*# sourceMappingURL=centercontent.css.map */

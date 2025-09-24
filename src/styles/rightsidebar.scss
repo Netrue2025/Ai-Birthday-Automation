@@ -1,0 +1,82 @@
+.rightSideBar{
+    width: 23%;
+    padding-right: 2%;
+    padding-left: 0;
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    
+    h2{
+        color: #4d4c4c;
+        font-size: 1rem;
+    }
+
+    .detailscontainer{
+        width: 90%;
+        padding: 5%;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        height: 85%;
+        overflow: hidden;
+
+    }
+    .details{
+        display: flex;
+        width: 90%;
+        margin: auto;
+
+        .personFA1{
+            font-size: 35px;
+            color: rgb(163, 163, 163);
+            margin: auto 0;
+            
+        }
+
+        .personFA{
+            font-size: 20px;
+            margin: auto 0;
+            color: gray;
+        }
+        .personDetails{
+            line-height: 0.4;
+            margin-left: 10px;
+            text-align: left;
+            color: gray;
+            width: 80%;
+
+            h3{
+                font-size: 1.125rem;
+                margin-bottom: 0;
+                line-height: 1;
+            }
+            p{
+                font-size: 0.875rem;
+                line-height: 1;
+                margin-top: 10px;
+            }
+        }
+    }
+    .message{
+        width: 90%;
+        margin: 0 auto;
+
+        h3{
+            color: rgb(114, 114, 114);
+        }
+        textarea{
+            width: 90%;
+            height: auto;
+            border: 1px solid rgb(231, 231, 231);
+            resize: none;
+            border-radius: 10px;
+            text-align: left;
+            padding: 5%;
+            padding-top: 10px;
+            font-family: sans-serif;
+            outline: none;
+            color: rgb(0, 199, 146);
+            
+        }
+    }
+
+}
