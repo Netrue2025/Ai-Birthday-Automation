@@ -8,61 +8,68 @@
 }
 .leftSideBar .automatedBD {
   width: 90%;
-  height: 20%;
+  height: 10%;
   display: flex;
   padding: 0;
   margin-left: 5%;
   margin-bottom: 8%;
 }
 .leftSideBar .automatedBD h2 {
-  color: #5b5b5b;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   width: 80%;
   text-align: center;
-  margin: auto 10px;
+  color: #5B5B5B;
+  font-weight: 800;
+  margin-left: 0;
 }
 .leftSideBar .automatedBD .round {
   width: 20px;
   height: 20px;
-  background-color: rgba(1, 56, 13, 0.5019607843);
-  margin: auto;
-  margin-right: 0;
-  margin-left: 10px;
+  background-color: rgba(26, 49, 175, 0.6901960784);
+  margin: 10px 0;
   border-radius: 50px;
 }
-.leftSideBar .dashBoard, .leftSideBar .contacts, .leftSideBar .wallet, .leftSideBar .configuration {
+.leftSideBar .menus {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 0;
+}
+.leftSideBar .menus .dashBoard, .leftSideBar .menus .contacts, .leftSideBar .menus .wallet, .leftSideBar .menus .configuration {
   color: #5B5B5B;
   font-size: 0.75rem;
   display: flex;
   width: 90%;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
 }
-.leftSideBar .dashBoard h3, .leftSideBar .contacts h3, .leftSideBar .wallet h3, .leftSideBar .configuration h3 {
+.leftSideBar .menus .dashBoard h3, .leftSideBar .menus .contacts h3, .leftSideBar .menus .wallet h3, .leftSideBar .menus .configuration h3 {
   text-align: left;
   width: 60%;
   margin: 10px;
+  font-weight: 100;
 }
-.leftSideBar .dashBoard .fa, .leftSideBar .contacts .fa, .leftSideBar .wallet .fa, .leftSideBar .configuration .fa {
+.leftSideBar .menus .dashBoard .fa, .leftSideBar .menus .contacts .fa, .leftSideBar .menus .wallet .fa, .leftSideBar .menus .configuration .fa {
   font-size: 1rem;
   width: auto;
   text-align: center;
   margin: auto 5%;
   margin-right: 0;
+  color: gray;
 }
-.leftSideBar .dashBoard {
+.leftSideBar .menus .dashBoard {
   border-radius: 5px;
   cursor: pointer;
+  background-color: rgb(168, 168, 168);
 }
-.leftSideBar .wallet:hover {
+.leftSideBar .menus .wallet:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
-.leftSideBar .contacts:hover {
+.leftSideBar .menus .contacts:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
-.leftSideBar .configuration:hover {
+.leftSideBar .menus .configuration:hover {
   background-color: #d1d1d1;
   cursor: pointer;
 }
@@ -106,6 +113,4 @@
   .leftSideBar {
     height: inherit;
   }
-}
-
-/*# sourceMappingURL=leftsidebar.css.map */
+}/*# sourceMappingURL=leftsidebar.css.map */

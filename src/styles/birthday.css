@@ -9,12 +9,10 @@
   width: 50%;
   position: relative;
 }
-.mainbirthday .userdetails b h2 {
+.mainbirthday .userdetails h2 {
   color: #4d4c4c;
   font-size: 0.9rem;
   margin-top: 6%;
   margin-left: 10%;
   margin-bottom: 0;
-}
-
-/*# sourceMappingURL=birthday.css.map */
+}/*# sourceMappingURL=birthday.css.map */

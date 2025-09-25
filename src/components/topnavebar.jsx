@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Button } from "./button"
 import "../styles/topnavbar.css"
 import { Birthday } from "./birthday"
-import { Socialevent } from "./socialevent"
+import { Broadcast } from "./broadcast"
 
 
 
@@ -13,7 +13,7 @@ export function Topnavbar(){
             
             <div className="topnavbutton">
                 <Button name="Birthdays Message Authomation" click={() => setContent('birthday')} className="birthbtn"/>
-                <Button name="Social Events" click={() => setContent('socialEvent')} className="socialbtn"/>
+                <Button name="Social Messaging" click={() => setContent('socialEvent')} className="socialbtn"/>
                 <Button name="Religious Events" click={() => setContent('religiousEvent')} className="religiousbtn"/>
                 <Button name="Anniversaries" click={() => setContent('anniversaries')} className="annibtn"/>
                 <br />
@@ -25,7 +25,7 @@ export function Topnavbar(){
                  <Birthday />
                 }
                 {content === "socialEvent" && 
-                <Socialevent /> 
+                 <Broadcast />
                 }
                 {content === "religiousEvent" && 
                 <p>This is religious event contents</p> 

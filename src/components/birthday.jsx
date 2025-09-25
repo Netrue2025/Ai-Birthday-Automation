@@ -61,7 +61,7 @@ export function Birthday(){
     
             </div>
             <div className="userdetails">
-                <div><h2>DETAILS</h2></div>
+                <div><h2>Details</h2></div>
                 {preview === "user1" &&
                 <Rightsidebar name="John Doe" message="This is the message ment for John" phone="+2347062671100" mobile="+4473456789" mobilename="Mobile" fname="John" email="@gmail.com" whatsappgroup="Whatsapp group" link={"whatsapp.com/" + Math.random()} whatsapp="Whatsapp"/>}
 

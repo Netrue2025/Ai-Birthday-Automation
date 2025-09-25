@@ -18,29 +18,35 @@ export function Leftsidebar(){
                     <div className='round'>.</div>
                     <h2>Text Automation</h2>
                 </div>
-                <div className='dashBoard'>
-                    <FontAwesomeIcon icon="fa-regular fa-house" className='fa'/>
-                    <h3>Dashboard</h3>
-                </div>
-                <Link to="/users">
-                    <div className='contacts'>
-                        <FontAwesomeIcon icon="fa-solid fa-user" className='fa'/>
-                        <h3>Contacts</h3>
-                    </div>
-                </Link>
-
-                <Link to="/config">
-                        <div className='configuration'>
-                            <FontAwesomeIcon icon="fa-solid fa-gear" className='fa'/>
-                            <h3>Configuration</h3>
+                <div className='menus'>
+                    <Link to="#/">
+                        <div className='dashBoard'>
+                            <FontAwesomeIcon icon="fa-regular fa-house" className='fa'/>
+                            <h3>Dashboard</h3>
                         </div>
-                </Link>
-                                <Link to="/wallet">
-                    <div className='wallet'>
-                        <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>
-                        <h3>Wallet</h3>
-                    </div>
-                </Link>
+                    </Link>
+
+                    <Link to="/users">
+                        <div className='contacts'>
+                            <FontAwesomeIcon icon="fa-solid fa-user" className='fa'/>
+                            <h3>Contacts</h3>
+                        </div>
+                    </Link>
+
+                    <Link to="/config">
+                            <div className='configuration'>
+                                <FontAwesomeIcon icon="fa-solid fa-gear" className='fa'/>
+                                <h3>Configuration</h3>
+                            </div>
+                    </Link>
+                    <Link to="/wallet">
+                        <div className='wallet'>
+                            <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>
+                            <h3>Wallet</h3>
+                        </div>
+                    </Link>
+                </div>
+
                
                 <div className='walletContainer'>
                     <div className='wallet2'>
