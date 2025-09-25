@@ -1,0 +1,52 @@
+.inputcontainer {
+  width: 70%;
+  padding: 2.5%;
+  margin-left: 5%;
+  border: 1px solid rgba(139, 139, 139, 0.384);
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 1%;
+}
+.inputcontainer .chkbox {
+  width: 3%;
+}
+.inputcontainer .circle {
+  margin: auto 10px;
+  color: rgb(226, 226, 226);
+  width: 8%;
+  height: auto;
+}
+.inputcontainer .name {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  text-align: left;
+  float: left;
+  width: 72%;
+}
+.inputcontainer .name h5 {
+  font-size: 0.8rem;
+  font-weight: 750;
+}
+.inputcontainer .name .namenext {
+  display: flex;
+  margin: 0;
+  text-align: left;
+  width: 40%;
+}
+.inputcontainer .name .namenext p {
+  font-size: 0.6rem;
+  color: rgb(153, 152, 152);
+  margin-top: 0;
+  text-align: left;
+  margin-right: 10px;
+}
+.inputcontainer p {
+  font-size: 0.6rem;
+  color: rgb(153, 152, 152);
+  width: auto;
+  text-align: right;
+  float: right;
+}/*# sourceMappingURL=input.css.map */
