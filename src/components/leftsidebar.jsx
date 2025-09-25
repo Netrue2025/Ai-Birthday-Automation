@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 import "../styles/leftsidebar.css"
 
 
-export function Leftsidebar(){
+export function Leftsidebar(props){
     return(
         <>
             {/* Left side bar */}
@@ -19,28 +19,28 @@ export function Leftsidebar(){
                     <h2>Text Automation</h2>
                 </div>
                 <div className='menus'>
-                    <Link to="#/">
-                        <div className='dashBoard'>
+                    <Link to="/">
+                        <div className={props.dashboard}>
                             <FontAwesomeIcon icon="fa-regular fa-house" className='fa'/>
                             <h3>Dashboard</h3>
                         </div>
                     </Link>
 
-                    <Link to="/users">
-                        <div className='contacts'>
+                    <Link to="/contacts">
+                        <div className={props.contacts}>
                             <FontAwesomeIcon icon="fa-solid fa-user" className='fa'/>
                             <h3>Contacts</h3>
                         </div>
                     </Link>
 
-                    <Link to="/config">
-                            <div className='configuration'>
+                    <Link to="/configuration">
+                            <div className={props.configuration}>
                                 <FontAwesomeIcon icon="fa-solid fa-gear" className='fa'/>
                                 <h3>Configuration</h3>
                             </div>
                     </Link>
                     <Link to="/wallet">
-                        <div className='wallet'>
+                        <div className={props.wallet}>
                             <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>
                             <h3>Wallet</h3>
                         </div>

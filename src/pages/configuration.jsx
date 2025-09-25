@@ -7,13 +7,6 @@ export function Configuration(){
     return(
         <>
             <Back />
-            <h1>User configuration</h1>
-            <Userdetails />
-            
-            <div className="side">
-                <h2>Edit User profile</h2>
-                <Editprofile />
-            </div>
 
 
         </>

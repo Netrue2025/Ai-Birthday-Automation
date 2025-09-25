@@ -6,7 +6,7 @@ import "../styles/maincontainer.css"
 export function Dashboard(){
   return(
     <div className='mainContainer'>
-      <Leftsidebar />
+      <Leftsidebar dashboard="dashboard" contacts="contacts" configuration="configuration" wallet="wallet"/>
       <Topnavbar />
     </div>
   )

@@ -37,7 +37,7 @@
         height: 70%;
         margin-bottom: 0;
 
-        .dashBoard, .contacts, .wallet, .configuration{
+        .dashboard, .contacts, .wallet, .configuration{
             color: #5B5B5B;
             font-size: 0.75rem;
             display: flex;
@@ -62,7 +62,7 @@
             }
 
         }
-        .dashBoard{
+        .dashboard{
             border-radius: 5px;
             cursor: pointer;
             background-color: rgb(168, 168, 168);
