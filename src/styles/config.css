@@ -1,1 +1,119 @@
-/*# sourceMappingURL=config.css.map */
+.dashboard4, .contacts4, .wallet4, .configuration4 {
+  color: #5B5B5B;
+  font-size: 0.75rem;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.dashboard4 h3, .contacts4 h3, .wallet4 h3, .configuration4 h3 {
+  text-align: left;
+  width: 60%;
+  margin: 10px;
+  font-weight: 100;
+}
+.dashboard4 .fa, .contacts4 .fa, .wallet4 .fa, .configuration4 .fa {
+  font-size: 1rem;
+  width: auto;
+  text-align: center;
+  margin: auto 5%;
+  margin-right: 0;
+  color: gray;
+}
+
+.configuration4 {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(168, 168, 168);
+}
+
+.contacts4:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.dashboard4:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.wallet4:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.setting-container {
+  width: 70%;
+  margin: 2.5%;
+}
+.setting-container .setting-header {
+  display: flex;
+  width: 100%;
+  padding: auto;
+  justify-content: space-between;
+  margin: auto;
+}
+.setting-container .setting-header h3 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #4d4c4c;
+  font-size: 0.9rem;
+}
+.setting-container .setting-header p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: gray;
+}
+.setting-container .form {
+  border: 1px solid #e0e0e0;
+  width: 55%;
+}
+.setting-container .form .broadcast-email {
+  width: 90%;
+  margin: auto;
+}
+.setting-container .form .broadcast-email h4 {
+  font-size: 0.6rem;
+}
+.setting-container .form .broadcast-email input {
+  width: 90%;
+  padding: 5%;
+  font-size: 0.657rem;
+  font-family: sans-serif;
+}
+.setting-container .form .broadcast-phone {
+  width: 90%;
+  margin: auto;
+}
+.setting-container .form .broadcast-phone h4 {
+  font-size: 0.6rem;
+}
+.setting-container .form .broadcast-phone input {
+  width: 90%;
+  padding: 5%;
+  font-size: 0.657rem;
+  font-family: sans-serif;
+}
+.setting-container .form .config-checkbox {
+  display: flex;
+  width: 90%;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  margin: auto;
+  cursor: pointer;
+}
+.setting-container .form .config-checkbox p {
+  font-size: 0.6rem;
+  color: gray;
+}
+.setting-container .form .settings-save-btn {
+  background-color: rgba(26, 49, 175, 0.6901960784);
+  font-size: 0.5rem;
+  width: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}/*# sourceMappingURL=config.css.map */

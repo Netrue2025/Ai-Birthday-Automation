@@ -62,6 +62,10 @@ export function Birthday(){
             </div>
             <div className="userdetails">
                 <div><h2>Details</h2></div>
+                {
+                    !preview &&
+                    <Rightsidebar name="John Doe" message="This is the message ment for John" phone="+2347062671100" mobile="+4473456789" mobilename="Mobile" fname="John" email="@gmail.com" whatsappgroup="Whatsapp group" link={"whatsapp.com/" + Math.random()} whatsapp="Whatsapp"/>
+                }
                 {preview === "user1" &&
                 <Rightsidebar name="John Doe" message="This is the message ment for John" phone="+2347062671100" mobile="+4473456789" mobilename="Mobile" fname="John" email="@gmail.com" whatsappgroup="Whatsapp group" link={"whatsapp.com/" + Math.random()} whatsapp="Whatsapp"/>}
 
@@ -70,6 +74,8 @@ export function Birthday(){
 
                 {preview === "user3" &&
                 <Rightsidebar name="Emily Davis" message="This is the message ment for Emily" phone="+2347062671100" mobile="+1233456789" mobilename="Mobile" fname="Emily" email="@gmail.com" whatsappgroup="Whatsapp group" link="whatsapp.com/uywb3hsh" whatsapp="Whatsapp"/>}
+            
+                
             </div>
         </div>
 

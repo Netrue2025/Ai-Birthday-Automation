@@ -10,7 +10,7 @@
   border: 1px solid #ececec;
   height: 5%;
   padding: 0.7rem;
-  background-color: #ececec;
+  background-color: #eeeeee;
   position: relative;
 }
 .topnavbar .topnavbutton .annibtn, .topnavbar .topnavbutton .religiousbtn, .topnavbar .topnavbutton .socialbtn, .topnavbar .topnavbutton .birthbtn {
@@ -19,6 +19,8 @@
   justify-self: center;
   text-align: center;
   margin: 0 2px;
-  background-color: #666;
+  background-color: #d8d7d7;
+  color: rgb(66, 66, 66);
+  font-weight: 600;
   outline: 1px solid rgb(146, 215, 255);
 }/*# sourceMappingURL=topnavbar.css.map */

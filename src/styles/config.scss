@@ -1,21 +1,133 @@
-// .config{
-//     width: 50vw;
-//     border: 1px solid gray;
-   
+.dashboard4, .contacts4, .wallet4, .configuration4{
+    color: #5B5B5B;
+    font-size: 0.75rem;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
 
+    h3{
+        text-align: left;
+        width: 60%; 
+        margin: 10px; 
+        font-weight: 100;              
+    }
+    .fa{
+        font-size: 1rem;
+        width: auto;
+        text-align: center;
+        margin: auto 5%;
+        margin-right: 0;
+        color:gray;
+    }
 
-//     h1{
-//         color: red;
-//         font-size: 1.5rem;
-//         width: 100%;
-//     }
+}
+.configuration4{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(168, 168, 168);
+    
+}
+.contacts4:hover{
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+.dashboard4:hover{
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+.wallet4:hover{
+        background-color: #d1d1d1;
+        cursor: pointer;
+}
 
-//     input{
-//         width: 100%;
-//         height: auto;
-//         background: #5b5b5b;
-//         border: 1px solid rgb(224, 224, 224);
-//         padding: 5px;
-//         margin: auto;
-//     }
-// }
+// Middle contents
+.setting-container{
+    width: 70%;
+    margin: 2.5%;
+
+    .setting-header{
+        display: flex;
+        width: 100%;
+        padding: auto;
+        justify-content: space-between;
+        margin: auto;
+
+        h3{
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: #4d4c4c;
+            font-size: 0.9rem;
+        }
+        p{
+            font-size: 0.8rem;
+            font-weight: 300;
+            color: gray;
+        }
+    }
+
+    .form{
+        border:  1px solid #e0e0e0;
+        width: 55%;
+        
+        .broadcast-email{
+            width: 90%;
+            margin: auto;
+            h4{
+                font-size: 0.6rem;
+            }
+            input{
+                width: 90%;
+                padding: 5%;
+                font-size: 0.657rem;
+                font-family: sans-serif;
+
+            }
+
+        }
+        .broadcast-phone{
+            width: 90%;
+            margin: auto;
+            h4{
+                font-size: 0.6rem;
+            }
+            input{
+                width: 90%;
+                padding: 5%;
+                font-size: 0.657rem;
+                font-family: sans-serif;
+                
+            }
+
+        }
+        
+        .config-checkbox{
+            display: flex;
+            width: 90%;
+            font-size: 0.8rem;
+            font-family: sans-serif;
+            margin: auto;
+            cursor: pointer;
+
+            p{
+                font-size: 0.6rem;
+                color: gray;
+            }
+        }
+
+        .settings-save-btn{
+             background-color: rgba(26, 49, 175, 0.6901960784);
+             font-size: 0.5rem;
+             width: 40px;
+             text-align: center;
+             color: white;
+             border-radius: 2px;
+             margin-left: 5%;
+             margin-bottom: 5%;
+            
+        }
+        
+    }
+}
