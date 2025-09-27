@@ -36,7 +36,7 @@ export function Contacts(){
                 <div>
                     
                 </div>
-
+                
                 <Inputbox name="John Doe" mail="johndoe@gmail.com" phone="+23476875656"/>
                 <Inputbox name="Jane Smith" mail="janesmith@gmail.com" phone="+23476875656"/>
                 <Inputbox name="Emily Davis" mail="emilydavis@gmail.com" phone="+23476875656"/>

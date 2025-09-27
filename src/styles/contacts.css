@@ -94,22 +94,13 @@
   width: 8%;
   margin-left: 1%;
   text-align: center;
-<<<<<<< Updated upstream
-  background-color: rgba(0, 18, 180, 0.842);
-}
-
-/*# sourceMappingURL=contacts.css.map */
-=======
   background-color: rgba(25, 38, 160, 0.842);
   cursor: pointer;
+  padding: auto;
 }
 .contactbody .searchcontainer .addcontainer span, .contactbody .searchcontainer .addcontainer .plus {
   font-size: 0.8rem;
   font-family: sans-serif;
   margin: auto;
   margin-top: 12px;
-}
-.contactbody .searchcontainer .addcontainer:hover {
-  background-color: rgba(4, 19, 160, 0.842);
 }/*# sourceMappingURL=contacts.css.map */
->>>>>>> Stashed changes

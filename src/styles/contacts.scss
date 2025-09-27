@@ -41,8 +41,10 @@
         background-color: #d1d1d1;
         cursor: pointer;
 }
+
 .contactbody{
     width: 75%;
+
 
     h2{
         font-size: 1rem;
@@ -99,6 +101,7 @@
             text-align: center;
             background-color: rgba(25, 38, 160, 0.842);
             cursor: pointer;
+            padding: auto;
             
             span, .plus{
                 font-size: 0.8rem;
@@ -108,9 +111,7 @@
                 
             }
         }
-        .addcontainer:hover{
-            background-color: rgba(4, 19, 160, 0.842);
-        }
+
     }
 
 }

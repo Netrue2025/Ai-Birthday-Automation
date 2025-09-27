@@ -9,16 +9,24 @@ library.add(fas, far, fab)
 
 export function Inputbox(props){
     return(
-        <div className="inputcontainer">
-            <input type="checkbox" className="chkbox"/>
-            <FontAwesomeIcon icon="fa-solid fa-circle" className="circle"/>
-            <div className="name">
-                <h5>{props.name}</h5>
-                <div className="namenext">
-                    <p>{props.mail}</p>
-                    <p>{props.mobile}</p>
+        <>
+            <label htmlFor={props.label}>
+                <div className="inputcontainer">
+            
+                    <input type="checkbox" className="chkbox" id={props.id}/>
+                    <FontAwesomeIcon icon="fa-solid fa-circle" className="circle"/>
+                    <div className="name">
+                        <h5>{props.name}</h5>
+                        <div className="namenext">
+                            <p>{props.mail}</p>
+                            <p>{props.mobile}</p>
+                        </div>
+                    </div>
+                    <FontAwesomeIcon icon="fa-solid fa-chevron-right" className='chev-right'/>
+          
                 </div>
-            </div>
-        </div>
+            </label>
+        </>
+
     )
 }
