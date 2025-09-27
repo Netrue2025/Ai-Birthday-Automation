@@ -90,13 +90,26 @@
         }
 
         .addcontainer{
+            color: white;
             border: 1px solid rgba(112, 112, 241, 0.616);
             height: 40px;
             border-radius: 0.2rem;
             width: 8%;
             margin-left: 1%;
             text-align: center;
-            background-color: rgba(0, 18, 180, 0.842);
+            background-color: rgba(25, 38, 160, 0.842);
+            cursor: pointer;
+            
+            span, .plus{
+                font-size: 0.8rem;
+                font-family: sans-serif;
+                margin: auto;
+                margin-top: 12px;
+                
+            }
+        }
+        .addcontainer:hover{
+            background-color: rgba(4, 19, 160, 0.842);
         }
     }
 

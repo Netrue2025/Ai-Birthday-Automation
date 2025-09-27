@@ -28,7 +28,7 @@ export function Contacts(){
                         <input type="search" placeholder='Search' />
                     </div>
                     <div className='addcontainer'>
-                        <FontAwesomeIcon icon="fa-solid fa-plus" />
+                        <FontAwesomeIcon icon="fa-solid fa-plus" className='plus'/>
                         <span>Add</span>
                     </div>
                 </div>
@@ -37,9 +37,11 @@ export function Contacts(){
                     
                 </div>
 
-                {Array.from({ length: 4 }, () => (
-                        <Inputbox />
-                ))}
+                <Inputbox name="John Doe" mail="johndoe@gmail.com" phone="+23476875656"/>
+                <Inputbox name="Jane Smith" mail="janesmith@gmail.com" phone="+23476875656"/>
+                <Inputbox name="Emily Davis" mail="emilydavis@gmail.com" phone="+23476875656"/>
+                
+               
 
             </div>
 

@@ -26,7 +26,7 @@ export function Birthday(){
             <div className="bodycontent">
                 {/*Content at the center*/}
                 <div className='centerContainer'>
-                    <h1>BIRTHDAYS</h1>
+                    <h1>Birthdays</h1>
                     <div className='search'>
                         <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className='searchFA'/>
                         <input type="search" placeholder='Search' />

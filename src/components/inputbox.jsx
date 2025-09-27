@@ -7,19 +7,18 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, far, fab)
 
-export function Inputbox(){
+export function Inputbox(props){
     return(
         <div className="inputcontainer">
             <input type="checkbox" className="chkbox"/>
             <FontAwesomeIcon icon="fa-solid fa-circle" className="circle"/>
             <div className="name">
-                <h5>John Doe</h5>
+                <h5>{props.name}</h5>
                 <div className="namenext">
-                    <p>johndoe@gmail.com</p>
-                    <p>+23470636627</p>
+                    <p>{props.mail}</p>
+                    <p>{props.mobile}</p>
                 </div>
             </div>
-            <p>2025-06-14</p>
         </div>
     )
 }
