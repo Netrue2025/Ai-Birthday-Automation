@@ -9,6 +9,7 @@ import { Leftsidebar } from '../components/leftsidebar'
 import { Inputbox } from '../components/inputbox'
 import "../styles/contacts.css"
 import "../styles/maincontainer.css"
+import "../styles/leftsidebar.css"
 
 
 export function Contacts(){
