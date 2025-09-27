@@ -1,3 +1,97 @@
-.contacts {
-  background-color: rgba(117, 117, 117, 0.1058823529);
-}/*# sourceMappingURL=contacts.css.map */
+.dashboard2, .contacts2, .wallet2, .configuration2 {
+  color: #5B5B5B;
+  font-size: 0.75rem;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.dashboard2 h3, .contacts2 h3, .wallet2 h3, .configuration2 h3 {
+  text-align: left;
+  width: 60%;
+  margin: 10px;
+  font-weight: 100;
+}
+.dashboard2 .fa, .contacts2 .fa, .wallet2 .fa, .configuration2 .fa {
+  font-size: 1rem;
+  width: auto;
+  text-align: center;
+  margin: auto 5%;
+  margin-right: 0;
+  color: gray;
+}
+
+.contacts2 {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(168, 168, 168);
+}
+
+.wallet2:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.dashboard2:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.configuration2:hover {
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.contactbody {
+  width: 75%;
+}
+.contactbody h2 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-left: 5%;
+  color: rgba(91, 91, 91, 0.8784313725);
+}
+.contactbody .smheader p {
+  font-size: 0.75rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-left: 5%;
+  color: rgba(91, 91, 91, 0.8901960784);
+}
+.contactbody .searchcontainer {
+  display: flex;
+}
+.contactbody .searchcontainer .search2 {
+  width: 60%;
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.contactbody .searchcontainer .search2 input {
+  border: none;
+  width: 90%;
+  float: right;
+  margin: 0 auto;
+  margin-right: 0;
+  border-radius: 10px;
+  outline: none;
+}
+.contactbody .searchcontainer .search2 .searchFA {
+  margin: auto;
+  color: gray;
+}
+.contactbody .searchcontainer .addcontainer {
+  border: 1px solid rgba(112, 112, 241, 0.616);
+  height: 40px;
+  width: 8%;
+  margin-left: 1%;
+  text-align: center;
+  background-color: rgba(0, 18, 180, 0.842);
+}
+
+/*# sourceMappingURL=contacts.css.map */

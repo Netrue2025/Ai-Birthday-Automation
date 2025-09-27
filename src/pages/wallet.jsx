@@ -7,9 +7,7 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, far, fab)
 import { Link } from 'react-router-dom'
-import "../styles/leftsidebar.css"
-import "../styles/centercontent.css"
-import "../styles/rightsidebar.css"
+
 
 export function Wallet(){
     return(
@@ -27,12 +25,12 @@ export function Wallet(){
                     <h3>Dashboard</h3>
                 </div>
             </Link>
-            <Link to="/users">
+            {/* <Link to="/users">
                 <div className='contacts'>
                     <FontAwesomeIcon icon="fa-solid fa-user" className='fa'/>
                     <h3>Contacts</h3>
                 </div>
-            </Link>
+            </Link> */}
 
             <div className='wallet'>
                 <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>

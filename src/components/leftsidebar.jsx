@@ -39,7 +39,7 @@ export function Leftsidebar(props){
                                 <h3>Configuration</h3>
                             </div>
                     </Link>
-                    <Link to="/wallet">
+                    <Link to="/wallets">
                         <div className={props.wallet}>
                             <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>
                             <h3>Wallet</h3>
