@@ -14,7 +14,10 @@ import "../styles/maincontainer.css"
 export function Contacts(){
     return(
         <div className='mainContainer'>
+            {/* Left side bar */}
             <Leftsidebar  dashboard="dashboard2" contacts="contacts2" configuration="configuration2" wallet="wallet2"/>
+           
+            {/* Center Contents */}
             <div className='contactbody'>
 
                 <div className='smheader'>
@@ -43,6 +46,12 @@ export function Contacts(){
                 
                
 
+            </div>
+
+            {/* Right contents */}
+            <div className='contact-right-contents'>
+                <h3>Contact Details</h3>
+                <p>Select a contact to see details and quick actions</p>
             </div>
 
         </div>

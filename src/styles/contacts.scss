@@ -64,16 +64,17 @@
     }
     .searchcontainer{
         display: flex;
+        width: 95%;
 
         .search2{
-                width: 60%;
-                background-color: white;
-                border: 1px solid rgb(219, 219, 219);
-                display: flex;
-                height: 40px;
-                border-radius: 10px;
-                margin-left: 5%;
-                margin-bottom: 2%;
+            width: 100%;
+            background-color: white;
+            border: 1px solid rgb(219, 219, 219);
+            display: flex;
+            height: 40px;
+            border-radius: 10px;
+            margin-left: 5%;
+            margin-bottom: 2%;
 
             input{
                 border: none;
@@ -88,6 +89,7 @@
             .searchFA{
                 margin: auto;
                 color: gray;
+                width: 10%;
             }
         }
 
@@ -96,12 +98,14 @@
             border: 1px solid rgba(112, 112, 241, 0.616);
             height: 40px;
             border-radius: 0.2rem;
-            width: 8%;
+            width: 12%;
             margin-left: 1%;
             text-align: center;
             background-color: rgba(25, 38, 160, 0.842);
             cursor: pointer;
             padding: auto;
+            line-height: 1;
+           
             
             span, .plus{
                 font-size: 0.8rem;
@@ -114,4 +118,29 @@
 
     }
 
+    
+}
+// Right side contents
+.contact-right-contents{
+    border: 1px solid rgba(177, 177, 177, 0.384);
+    height: 12%;
+    margin-top: 5%;
+    width: 20%;
+    margin-right: 1%;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 0 2%;
+    line-height: 1;
+
+
+    h3{
+        font-size: 0.8rem;
+       font-family: sans-serif;
+    }
+    p{
+        font-size: 0.6rem;
+        color: gray;
+        text-align: left;
+        margin: 0;
+    }
 }
