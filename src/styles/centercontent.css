@@ -24,6 +24,8 @@
   margin-right: 0;
   border-radius: 10px;
   outline: none;
+  color: #333333;
+  background-color: #fff;
 }
 .centerContainer .search .searchFA {
   margin: auto;
@@ -64,4 +66,6 @@
   padding: 0;
   margin-top: 10px;
   font-size: 0.65rem;
-}/*# sourceMappingURL=centercontent.css.map */
+}
+
+/*# sourceMappingURL=centercontent.css.map */

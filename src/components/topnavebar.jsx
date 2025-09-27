@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Button } from "./button"
 import "../styles/topnavbar.css"
 import { Birthday } from "./birthday"
-import { Broadcast } from "./broadcast"
+import { Socialmessaging } from "./socialmessaging"
 
 
 
@@ -25,7 +25,7 @@ export function Topnavbar(){
                  <Birthday />
                 }
                 {content === "socialEvent" && 
-                 <Broadcast />
+                 <Socialmessaging />
                 }
                 {content === "religiousEvent" && 
                 <p>This is religious event contents</p> 
