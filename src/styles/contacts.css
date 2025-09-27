@@ -74,6 +74,7 @@
 }
 .contactbody .searchcontainer .search2 input {
   border: none;
+  background-color: #fff;
   width: 90%;
   float: right;
   margin: 0 auto;
@@ -88,6 +89,7 @@
 .contactbody .searchcontainer .addcontainer {
   border: 1px solid rgba(112, 112, 241, 0.616);
   height: 40px;
+  border-radius: 0.2rem;
   width: 8%;
   margin-left: 1%;
   text-align: center;

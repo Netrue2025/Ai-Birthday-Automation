@@ -1,71 +1,131 @@
-.socialmessaging_container {
+.socialmessaging-container {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.socialmessaging-wrapper {
   width: 75%;
   color: #4d4c4c;
   font-size: 0.9rem;
-  padding: 0.9rem;
+  padding: 0.5rem;
   margin-top: 0;
   font-size: 62.25%;
   font-family: sans-serif;
 }
-.socialmessaging_container .social_messaging--title {
+.socialmessaging-wrapper .social_messaging--title {
   display: flex;
   justify-content: space-between;
 }
-.socialmessaging_container h3 {
+.socialmessaging-wrapper h3 {
   font-weight: 900;
 }
-.socialmessaging_container .contact_wrapper {
+.socialmessaging-wrapper .contact_wrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.socialmessaging_container .contact_wrapper label {
+.socialmessaging-wrapper .contact_wrapper label {
   font-weight: 600;
 }
-.socialmessaging_container .contact_wrapper .social_profile-img {
+.socialmessaging-wrapper .contact_wrapper .social_profile-img {
   background-color: #e0e0e0;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
 }
-.socialmessaging_container .contact_wrapper .contact_name {
+.socialmessaging-wrapper .contact_wrapper .contact_name {
   font-weight: 700;
   color: #000;
 }
-.socialmessaging_container .contact_wrapper .contact-item {
+.socialmessaging-wrapper .contact_wrapper .contact-item {
   display: flex;
   justify-content: space-between;
   padding: 0 0.7rem;
   align-items: center;
   border: 1px solid #e0e0e0;
 }
-.socialmessaging_container .contact_wrapper .contact-item p {
+.socialmessaging-wrapper .contact_wrapper .contact-item p {
   font-size: 0.8rem;
   font-weight: 300;
   color: gray;
 }
-.socialmessaging_container .contact_wrapper .contact {
+.socialmessaging-wrapper .contact_wrapper .contact {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.socialmessaging_container .contact_wrapper .compose_message {
+.socialmessaging-wrapper .contact_wrapper .compose_message {
   display: flex;
   flex-direction: column;
-  padding: 0 0.7rem;
+  padding: 0 0.7rem 0.3rem;
   border: 1px solid #e0e0e0;
 }
-.socialmessaging_container .contact_wrapper .compose_message .compose-title {
+.socialmessaging-wrapper .contact_wrapper .compose_message .compose-title {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
 }
-.socialmessaging_container .contact_wrapper .compose_message .textarea {
+.socialmessaging-wrapper .contact_wrapper .compose_message .textarea {
   background-color: #fff;
   border: 1px solid #e0e0e0;
   padding: 0.5rem;
-  height: 4rem;
+  color: #4d4c4c;
+  margin-bottom: 0.5rem;
+  resize: none;
+  height: 3rem;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .composerbtn {
+  display: flex;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .composerbtn button {
+  border: 1px solid #e0e0e0;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .channel {
+  font-weight: 900;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .channel .channel-items {
+  align-items: center;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+  color: grey;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .broadcastbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  color: gray;
+  gap: 0.5rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .broadcastbtn .broadcastbtn {
+  padding: 0.2rem 20%;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+.socialmessaging-wrapper .contact_wrapper .compose_message .broadcastbtn .broadcastbtn-1 {
+  background-color: rgba(26, 49, 175, 0.6901960784);
+  color: #fff;
+}
+
+.social-message-preview {
+  width: 21%;
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  height: 7rem;
 }
 
 /*# sourceMappingURL=socialmessaging.css.map */
