@@ -10,9 +10,12 @@ import { Inputbox } from '../components/inputbox'
 import "../styles/contacts.css"
 import "../styles/maincontainer.css"
 import "../styles/leftsidebar.css"
+import { useState } from 'react'
+import { Form } from './test'
 
 
 export function Contacts(){
+   const [showAlert, setShowAlert] = useState(false);
     return(
         <div className='mainContainer'>
             {/* Left side bar */}
@@ -31,11 +34,42 @@ export function Contacts(){
                         <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className='searchFA'/>
                         <input type="search" placeholder='Search' />
                     </div>
-                    <div className='addcontainer'>
-                        <FontAwesomeIcon icon="fa-solid fa-plus" className='plus'/>
-                        <span>Add</span>
-                    </div>
+                     
+                        <div className='addcontainer'>
+                            <button onClick={() => setShowAlert(true)}>
+                                <FontAwesomeIcon icon="fa-solid fa-plus" className='plus'/>
+                                <span>Add</span>
+                            </button>
+                        </div>
+                      {showAlert && (
+                            <div className="overlay">
+                            <div className="alert-box">
+                                <h2>Contact Form</h2>
+                                <form>
+                                <div className="form-group">
+                                    <label>Name</label>
+                                    <input type="text" className="form-control" placeholder="Enter name" />
+                                </div>
+                                <div className="form-group">
+                                    <label>Email</label>
+                                    <input type="email" className="form-control" placeholder="Enter email" />
+                                </div>
+                                <div className="form-group">
+                                    <label>Message</label>
+                                    <textarea className="form-control" rows="3" placeholder="Type message"></textarea>
+                                </div>
+                                </form>
+                                <div className="actions">
+                                <button className="btn btn-secondary" onClick={() => setShowAlert(false)}>
+                                    Close
+                                </button>
+                                <button className="btn btn-success">Send</button>
+                                </div>
+                            </div>
+                            </div>
+                        )}
                 </div>
+       
 
                 <div>
                     

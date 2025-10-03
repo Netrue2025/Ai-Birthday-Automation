@@ -14,12 +14,15 @@ export function Leftsidebar(props){
         <>
             {/* Left side bar */}
             <div className='leftSideBar'>
-                <div className='automatedBD'>
+                <Link to={"/"}>
+                    <div className='automatedBD'>
                     <div className='round'>.</div>
                     <h2>Text Automation</h2>
                 </div>
+                </Link>
+
                 <div className='menus'>
-                    <Link to="/">
+                    <Link to="/dashboard">
                         <div className={props.dashboard}>
                             <FontAwesomeIcon icon="fa-regular fa-house" className='fa'/>
                             <h3>Dashboard</h3>
@@ -39,7 +42,7 @@ export function Leftsidebar(props){
                                 <h3>Configuration</h3>
                             </div>
                     </Link>
-                    <Link to="/wallets">
+                    <Link to="/wallet">
                         <div className={props.wallet}>
                             <FontAwesomeIcon icon="fa-solid fa-wallet" className='fa'/>
                             <h3>Wallet</h3>

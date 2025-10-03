@@ -101,11 +101,22 @@
   padding: auto;
   line-height: 1;
 }
-.contactbody .searchcontainer .addcontainer span, .contactbody .searchcontainer .addcontainer .plus {
+.contactbody .searchcontainer .addcontainer button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(25, 38, 160, 0.842);
+  color: #d1d1d1;
   font-size: 0.8rem;
+  justify-content: center;
+}
+.contactbody .searchcontainer .addcontainer span {
   font-family: sans-serif;
-  margin: auto;
-  margin-top: 12px;
+  margin-left: -5px;
+  margin-bottom: 20px;
+  width: 80%;
+  font-weight: 800;
+  color: rgb(252, 252, 252);
 }
 
 .contact-right-contents {
@@ -128,6 +139,4 @@
   color: gray;
   text-align: left;
   margin: 0;
-}
-
-/*# sourceMappingURL=contacts.css.map */
+}/*# sourceMappingURL=contacts.css.map */
