@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 section {
-  background-image: linear-gradient(rgb(8, 0, 14), rgb(38, 0, 65), #7a4bce);
+  background-image: linear-gradient(#0C0E16, rgb(8, 0, 14), rgb(38, 0, 65));
   height: 100vh;
   width: 100vw;
 }
@@ -36,7 +38,7 @@ section header nav .signup_btn, section header nav .login_btn {
   opacity: 0.85;
 }
 section main {
-  width: 80%;
+  width: 60%;
   margin: auto;
   text-align: center;
   height: 65%;
@@ -45,11 +47,13 @@ section main {
 }
 section main h1 {
   font-size: 4rem;
+  font-weight: 800;
   background: -webkit-linear-gradient(#f2683a, #f9d85d, #a1f27d, #67d4f6, #52b6f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   height: auto;
   margin-bottom: 10px;
+  line-height: 1.2;
 }
 section main h2 {
   font-size: 2rem;
@@ -67,4 +71,19 @@ section main p {
 section main .get_started {
   background-color: #9a5bf5;
   color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  section main {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section main {
+    width: 85vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  section main {
+    width: 95%;
+  }
 }/*# sourceMappingURL=home.css.map */
