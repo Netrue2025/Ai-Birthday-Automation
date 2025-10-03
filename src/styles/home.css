@@ -6,13 +6,25 @@ section {
 section header {
   width: 100%;
   height: 10%;
+  display: flex;
+}
+section header figure {
+  width: 10%;
+  height: auto;
+  margin-left: 20px;
+}
+section header figure img {
+  height: 3.55rem;
+  float: left;
+  opacity: 0.85;
 }
 section header nav {
   display: flex;
-  width: auto;
+  flex-direction: row-reverse;
+  width: 90%;
   float: right;
   height: 100%;
-  margin: auto;
+  right: 0;
   padding-right: 25px;
 }
 section header nav .signup_btn, section header nav .login_btn {
@@ -21,6 +33,7 @@ section header nav .signup_btn, section header nav .login_btn {
   width: auto;
   margin-top: 25px;
   color: white;
+  opacity: 0.85;
 }
 section main {
   width: 80%;

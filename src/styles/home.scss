@@ -7,23 +7,39 @@ section{
         width: 100%;
         height: 10%;
         // background-color: green;
+        display: flex;
+
+        figure{
+            width: 10%;
+            height: auto;
+            margin-left: 20px;
+
+            img{
+                height: 3.55rem;
+                float: left;
+                opacity: 0.85;
+            }
+        }
 
         nav{
             display: flex;
-            width: auto;
+            flex-direction: row-reverse;
+            width: 90%;
             float: right;
             height: 100%;
-            margin: auto;
+            
+            right: 0;
             // background-color: white;
             padding-right: 25px;
+           
             
-
             .signup_btn, .login_btn{
                 margin-left: 25px;
                 background-color: #9a5bf5;
                 width: auto;
                 margin-top: 25px;
                 color: white;
+               opacity: 0.85;
 
             }
         }
