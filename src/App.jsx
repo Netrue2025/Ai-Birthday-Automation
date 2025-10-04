@@ -4,6 +4,8 @@ import { Wallet } from "./pages/wallet"
 import { Configuration } from "./pages/configuration"
 import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import { Home } from "./pages/home"
+import { Signup } from "./pages/sign-up"
+import { Signin }from"./pages/signin"
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Route path='/contacts' element={ <Contacts /> }></Route>
       <Route path='/configuration' element={ <Configuration /> }></Route>
       <Route path='/wallet' element={ <Wallet /> }></Route>
+      <Route path='/signup' element={ <Signup /> }></Route>
+      <Route path='/signin' element={ <Signin /> }></Route>
 
     </Routes>
   </Router>

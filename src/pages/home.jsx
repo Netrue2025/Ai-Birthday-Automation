@@ -13,9 +13,9 @@ export function Home(){
                 </figure>
                 <nav>
 
-                    <a href="https://ai-birthday-automation.vercel.app" target="_blank">
+                   <Link to={"/signup"}>
                         <Button className="signup_btn" name="Sign Up"/>
-                    </a>
+                    </Link>
                      <Link to="/dashboard">
                         <Button className="login_btn" name="Log In"/>
                      </Link>   
@@ -30,9 +30,11 @@ export function Home(){
                     social greetings and business emails
                     broadcast while you sleep
                 </p>
-                <a href="https://ai-birthday-automation.vercel.app" target="_blank">
+                <Link to={"/signup"}>
                     <Button className="get_started" name="Get Started"/>
-                </a>
+                </Link>
+                    
+               
                 
             </main>
         </section>
