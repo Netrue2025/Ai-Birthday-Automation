@@ -7,6 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, far, fab)
 import { Link } from "react-router-dom"
 import "../styles/leftsidebar.css"
+import logo from "../assets/logo.PNG"
 
 
 export function Leftsidebar(props){
@@ -16,9 +17,11 @@ export function Leftsidebar(props){
             <div className='leftSideBar'>
                 <Link to={"/"}>
                     <div className='automatedBD'>
-                    <div className='round'>.</div>
-                    <h2>Text Automation</h2>
-                </div>
+                        <div className='round'>
+                            <img src={logo} alt="App logo" />
+                        </div>
+                        <h2>Text Automation</h2>
+                    </div>
                 </Link>
 
                 <div className='menus'>
