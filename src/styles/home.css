@@ -71,6 +71,7 @@ section main p {
 section main .get_started {
   background-color: #9a5bf5;
   color: #ffffff;
+  position: relative;
 }
 @media screen and (max-width: 1024px) {
   section main {

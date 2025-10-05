@@ -8,6 +8,7 @@
   background-color: #FFFFFF;
   display: flex;
   overflow: hidden;
+  position: relative;
 }
 
 h2 {
@@ -19,6 +20,6 @@ h2 {
   .mainContainer {
     width: 100vw;
     margin: 0;
-    height: auto;
+    height: 100vh;
   }
 }/*# sourceMappingURL=maincontainer.css.map */

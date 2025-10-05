@@ -10,7 +10,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   
 }
 
 a {
@@ -28,6 +27,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
  background-image: linear-gradient(#0C0E16, rgb(8, 0, 14), rgb(38, 0, 65));
 }
 
