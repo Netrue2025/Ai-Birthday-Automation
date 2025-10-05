@@ -5,7 +5,6 @@ import { Birthday } from "./birthday"
 import { Socialmessaging } from "./socialmessaging"
 
 
-
 export function Topnavbar(){
     const [content, setContent] = useState('birthday')
     return(
