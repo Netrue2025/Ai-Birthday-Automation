@@ -42,12 +42,12 @@
   cursor: pointer;
 }
 
+.mainContainer .wallet-funding h2 {
+  font-size: 1.2rem;
+}
 .mainContainer .wallet-funding {
   padding: 0.5rem 1rem;
   font-family: sans-serif;
-}
-.mainContainer .wallet-funding h2 {
-  font-size: 1.2rem;
 }
 .mainContainer .wallet-funding .wallet-input {
   width: 20rem;
@@ -79,4 +79,6 @@
   font-weight: 600;
   border-radius: 0.2rem;
   color: white;
-}/*# sourceMappingURL=wallet.css.map */
+}
+
+/*# sourceMappingURL=wallet.css.map */

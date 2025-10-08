@@ -3,6 +3,11 @@
   gap: 0.2rem;
 }
 
+@media (max-width: 576px) {
+  .socialmessaging-container {
+    flex-direction: column;
+  }
+}
 .socialmessaging-wrapper {
   width: 75%;
   color: #4d4c4c;
@@ -126,4 +131,7 @@
   margin-top: 1rem;
   border: 1px solid #e0e0e0;
   height: 7rem;
-}/*# sourceMappingURL=socialmessaging.css.map */
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=socialmessaging.css.map */
