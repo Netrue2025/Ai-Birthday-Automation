@@ -55,6 +55,8 @@
 .signin .signin_container .signin_input input {
   padding: 1rem;
   border: 1px solid #150;
+  border-radius: 5px;
+  outline: none;
 }
 .signin .signin_container .remember_me {
   display: flex;
